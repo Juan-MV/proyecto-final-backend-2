@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backend | Chuck Norris</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="resources/OIG6.jpg" class="banner" />
+        <h3 class="title">Chistes de Chuch Norris</h3>
+        <h5 class="title">
+          Usando la API: https://api.chucknorris.io/jokes/random
+        </h5>
+        <button type="button" class="button" onclick="fetchChuckNorrisJoke()">
+          Generar
+        </button>
+        <div id="resultado" class="text">Da clic en el botón generar!</div>
+        <img id="randomImage" alt="Random Image" class="randomImage" />
+        <p class="firma">Juan-MV</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
